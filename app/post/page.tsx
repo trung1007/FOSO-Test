@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import PostContent from "@/components/PostContent";
-import RelativePost from "@/components/RelativePost";
 import ShareApp from "@/components/ShareApp";
 
 export default function PostsScreen() {

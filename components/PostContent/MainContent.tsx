@@ -1,5 +1,4 @@
 import { MdOutlineDateRange } from "react-icons/md"
-import Breadcrumb from "../BreadCrumb"
 import { CiClock2 } from "react-icons/ci"
 import Image from "next/image"
 import Rating from "./Rating"

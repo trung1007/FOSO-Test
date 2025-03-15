@@ -1,6 +1,5 @@
 import MainContent from "./MainContent"
 import OutlinePost from "./OutlinePost"
-import ShareApp from "../ShareApp"
 import RelativePost from "../RelativePost"
 import Breadcrumb from "../BreadCrumb"
 
