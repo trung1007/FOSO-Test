@@ -3,11 +3,9 @@ import { useState } from "react";
 import Image from "next/image";
 
 const OutlinePost = () => {
-    const [activeItem, setActiveItem] = useState(null);
+    const [activeItem, setActiveItem] = useState('');
 
-    const handleClick = (id: any) => {
-        console.log(id);
-        
+    const handleClick = (id: string) => {
         setActiveItem(id);
     };
 
@@ -73,7 +71,7 @@ const OutlinePost = () => {
                                 <ol className="list-[decimal] pl-6">
                                     {item.children.map((child) => (
                                         <li key={child.id} className={`${activeItem === child.id ? "text-[#15AA7A] font-bold" : "text-black"
-                                        }`} >
+                                            }`} >
                                             <a
                                                 href={`#${child.id}`}
                                                 onClick={() => handleClick(child.id)}
